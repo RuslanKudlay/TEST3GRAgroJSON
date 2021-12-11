@@ -24,6 +24,7 @@ namespace Test3GRAgro.Controllers
         {
             var result = _productService.GetAll();
             return Ok(result);
+
         }
     }
 }
